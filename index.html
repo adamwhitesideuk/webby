@@ -29,38 +29,67 @@
         <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
         -->
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="css/base.min.css">
+        <link rel="stylesheet" href="css/normalize.css"/>
+        <link rel="stylesheet" href="css/main.css"/>
+		<link rel="stylesheet" href="css/base.min.css" />
+		<link rel="stylesheet" href="css/scroll.css" />
+		
         <script src="js/vendor/modernizr-2.6.1.min.js"></script>
+		
 
     </head>
     <body>
 
         <!-- Add your site or application content here -->
 	
+
+		
 		<header class="cf" id="the-header">
 			<div class="wrapper">
 				<a style="display: none;" href="#" class="header-branding"></a>
 				<ul class="nav right">
-					<li><a href="#about-us" title="About us" data-nav="#about-us">Go get the cookie...</a></li>
+					<li><a href="#Home" title="Home" data-nav="#Home">Home</a></li> 
+					<li><a href="#about-us" title="Cookie" data-nav="#about-us">Cookie</a></li> 
+					<li><a href="#UI-Design" title="UI Design" data-nav="#UI-Design">UI Design</a></li> 
 				</ul>
 			</div>
 		</header>
-
-		<div></div>
-		<div></div>
-		<div style="height:1000px"></div>
-		<div  id="about-us">
-		<h1>Cookie</h1>
-		<p>Just a bit of filler text to prove a point </p>
-		<div style="height:500px"></div>
+		
+		
+		
+		<div style="height:110px"></div>
+		
+		<div  id="Home" class="item">
+			<h1>Home</h1>
+			<p>Just a bit of filler text to prove a point </p>
+		</div>	
+		
 
 		
-	<script src="js/jquery-1.9.0.min.js"></script>
-	<script src="js/libs/jquery.scrollTo-1.4.3.1-min.js"></script>
-	<script src="js/main.min.js"></script>
+		<div id="about-us" class="item">
+			<h1>Cookie</h1>
+			<p>Just a bit of filler text to prove a point </p>
+		</div>
+		
+		<div  id="UI-Design" class="item">
+			<h1>UI Design</h1>
+			<p>Just a bit of filler text to prove a point </p>
+		</div>
 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<script src="js/jquery-1.9.0.min.js"></script>
+		<script src="js/libs/jquery.scrollTo-1.4.3.1-min.js"></script>
+		<script src="js/main.js"></script>
+		
+		<script type="text/javascript" src="js/lorem.js"></script>
         <script src="js/vendor/zepto.min.js"></script>
         <script src="js/helper.js"></script>
 
